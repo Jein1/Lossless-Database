@@ -238,7 +238,7 @@
                     const parsedUrl = new URL(item.url);
                     const match = parsedUrl.pathname.match(/\/(Music)\/(.+)$/i);
                     if (match) {
-                        resolvedUrl = `./${match[1]}/${match[2]}`;
+                        resolvedUrl = `https://raw.githubusercontent.com/EchoMusicApp/Lossless/main/Music/${match[2]}`;
                     }
                 } catch (e) {
                 }
